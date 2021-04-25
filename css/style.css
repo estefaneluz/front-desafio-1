@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f5f5f5;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  align-items: center;
+}
+
+.principal {
+  flex-grow: 1;
+}
+
+header {
+  padding: 20px 30px;
+  background-color: white;
+  width: 100%;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.12);
+}
+
+header svg {
+  width: 150px;
+  height: 29.31px;
+}
+
+footer {
+  padding: 27px 17px;
+  text-align: center;
+  background-color: #222222;
+  color: white;
+  width: 100%;
+}

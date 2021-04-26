@@ -198,6 +198,21 @@ h2 {
   .conteudo {
     font-size: 14px;
   }
+
+  .column {
+    width: auto;
+  }
+
+  /* POSTAGEM */
+
+  .post {
+    max-width: 50vw;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
   .label-post {
     padding: 24px 0 14px 24px;
   }
@@ -208,6 +223,7 @@ h2 {
   .conteudo {
     padding: 14px 24px 24px 24px;
   }
+
   .principal {
     flex-direction: row-reverse;
     align-items: flex-start;
@@ -216,11 +232,32 @@ h2 {
     column-gap: 4vw;
   }
 
+  .post button {
+    width: 154px;
+    padding: 12px 0;
+    border-radius: 20px;
+    align-self: flex-end;
+    margin: 24px;
+    background-color: transparent;
+    border: 1px solid #fe0078;
+    font-weight: normal;
+    color: #545454;
+    box-shadow: none;
+  }
+
+  .post button:hover {
+    color: white;
+    background-color: #fe0078;
+  }
+
+  /* SIDEBAR */
+
   .aside-one {
     background: none;
     width: min-content;
     padding: 20px;
   }
+
   aside {
     width: auto;
     border-radius: 4px;
@@ -228,15 +265,9 @@ h2 {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
   }
 
-  .post {
-    max-width: 50vw;
-  }
   .search {
     margin: 0px;
     min-width: 23vw;
-  }
-  .ads .img {
-    width: 100px;
   }
 
   .categorias {
@@ -264,11 +295,7 @@ h2 {
     border-bottom: 2px #fe0078 dotted;
   }
 
-  .column {
-    width: auto;
-  }
-
-  h2 {
-    font-size: 24px;
+  .ads .img {
+    width: 100px;
   }
 }

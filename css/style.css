@@ -20,7 +20,8 @@ body {
 .principal,
 aside,
 .post,
-.aside-one {
+.aside-one,
+.form-item {
   display: flex;
   flex-direction: column;
 }
@@ -228,6 +229,64 @@ h2 {
   cursor: pointer;
 }
 
+/* PAGINA CONTATO */
+
+.column.contato-conteudo {
+  row-gap: 0;
+}
+.contato-conteudo {
+  padding: 0 24px 13px 24px;
+}
+
+.grid-column-two {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  column-gap: 8px;
+}
+
+.grid-column-two p {
+  grid-column: span 2;
+  padding: 8px 0 15px 0;
+}
+
+.contato-conteudo h2 {
+  padding: 24px 0 15px 0;
+}
+
+h4 {
+  font-size: 1em;
+  text-transform: uppercase;
+  color: black;
+  margin: 20px 0;
+  justify-self: center;
+}
+
+.contato-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 10px;
+}
+
+.form-item input {
+  height: 5vh;
+}
+
+.form-item textarea {
+  resize: vertical;
+}
+
+.form-item textarea,
+.form-item input {
+  outline: #fe0078;
+  border: 1px solid #eeeeee;
+  border-radius: 2px;
+}
+
+.form-item textarea:focus,
+.form-item input:focus {
+  border: 1px solid #fe0078;
+}
+
 /* TELAS MAIORES */
 
 @media (min-width: 980px) {
@@ -356,5 +415,12 @@ h2 {
   .ads .img {
     width: 340px;
     height: 240px;
+  }
+
+  /* CONTATO */
+
+  .contato-form {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
   }
 }

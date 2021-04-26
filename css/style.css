@@ -12,10 +12,19 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   align-items: center;
+  color: #545454;
+}
+
+.column,
+.principal,
+aside {
+  display: flex;
+  flex-direction: column;
 }
 
 .principal {
   flex-grow: 1;
+  align-items: center;
 }
 
 header {
@@ -23,6 +32,7 @@ header {
   background-color: white;
   width: 100%;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.12);
+  z-index: 1;
 }
 
 header svg {
@@ -38,11 +48,16 @@ footer {
   width: 100%;
 }
 
+aside {
+  background-color: white;
+  width: 100vw;
+  align-items: center;
+}
+
 .column {
-  display: flex;
-  flex-direction: column;
   padding: 25px 0;
   width: 80vw;
+  row-gap: 25px;
 }
 
 .search {
@@ -51,4 +66,38 @@ footer {
   border: 1px solid #fe0078;
   padding: 12px 20px;
   border-radius: 10px;
+}
+
+.categorias {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, max-content));
+  gap: 20px 6px;
+}
+
+.categoria {
+  all: inherit;
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+}
+
+.categoria:hover {
+  cursor: pointer;
+  color: #fe0078;
+}
+
+.categoria:hover .numero {
+  background-color: #fe0078;
+}
+
+.numero {
+  background-color: #dfdfdf;
+  width: 25px;
+  height: 25px;
+  border-radius: 10px;
+  display: grid;
+  place-content: center;
+  font-size: 10px;
+  color: white;
+  padding: 8px;
 }

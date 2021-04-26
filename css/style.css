@@ -18,17 +18,19 @@ body {
 .column,
 .principal,
 aside,
-.post {
+.post,
+.aside-one {
   display: flex;
   flex-direction: column;
 }
 
-.principal {
+.principal,
+aside {
   align-items: center;
   width: 100%;
 }
 
-.principal.grow {
+.principal {
   flex-grow: 1;
 }
 
@@ -42,7 +44,6 @@ header {
 
 header svg {
   width: 150px;
-  height: 29.31px;
 }
 
 footer {
@@ -53,8 +54,10 @@ footer {
   width: 100%;
 }
 
-.principal.one {
+.aside-one {
   background-color: white;
+  width: 100%;
+  align-items: center;
 }
 
 .column {
@@ -130,7 +133,7 @@ h3::before {
   height: min-content;
 }
 
-.img {
+.ads .img {
   width: 100%;
   height: 85px;
   background-color: #eeeeee;
@@ -186,4 +189,86 @@ h2 {
 
 .post button:hover {
   cursor: pointer;
+}
+
+/* TELAS MAIORES */
+
+@media (min-width: 980px) {
+  body,
+  .conteudo {
+    font-size: 14px;
+  }
+  .label-post {
+    padding: 24px 0 14px 24px;
+  }
+  .label-post p {
+    font-size: 12px;
+  }
+
+  .conteudo {
+    padding: 14px 24px 24px 24px;
+  }
+  .principal {
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 4vw 0;
+    column-gap: 4vw;
+  }
+
+  .aside-one {
+    background: none;
+    width: min-content;
+    padding: 20px;
+  }
+  aside {
+    width: auto;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+  }
+
+  .post {
+    max-width: 50vw;
+  }
+  .search {
+    margin: 0px;
+    min-width: 23vw;
+  }
+  .ads .img {
+    width: 100px;
+  }
+
+  .categorias {
+    grid-template-columns: 1fr;
+  }
+
+  .categoria {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    border-bottom: 2px #eeeeee dotted;
+  }
+
+  .categoria .numero {
+    background-color: transparent;
+    color: #545454;
+    font-size: 14px;
+  }
+
+  .categoria:hover .numero {
+    background-color: transparent;
+    color: #fe0078;
+  }
+
+  .categoria:hover {
+    border-bottom: 2px #fe0078 dotted;
+  }
+
+  .column {
+    width: auto;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
 }

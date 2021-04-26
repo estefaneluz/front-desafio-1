@@ -148,12 +148,11 @@ h3 {
   font-weight: bold;
 }
 
-h3::before,
-.ads h3::before {
+h3::before {
   content: '';
   display: inline-block;
   width: 2px;
-  height: 130%;
+  height: 30px;
   background: #fe0078;
   margin-right: 11px;
   position: relative;

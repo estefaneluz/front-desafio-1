@@ -17,7 +17,8 @@ body {
 
 .column,
 .principal,
-aside {
+aside,
+.post {
   display: flex;
   flex-direction: column;
 }
@@ -132,4 +133,56 @@ h3::before {
   width: 100%;
   height: 85px;
   background-color: #eeeeee;
+}
+
+/* postagem */
+
+.post {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+}
+
+.post img {
+  width: 100%;
+  height: auto;
+}
+
+.label-post,
+.conteudo {
+  padding: 13px 17px;
+}
+
+h2 {
+  color: black;
+  font-size: 16px;
+}
+
+.label-post {
+  color: #929292;
+  font-size: 10px;
+}
+
+.conteudo {
+  font-size: 10px;
+  color: #545454;
+  flex-grow: 1;
+  max-height: 100px;
+  overflow: hidden;
+}
+
+.post button {
+  all: inherit;
+  width: 100%;
+  background-color: #fe0078;
+  color: white;
+  font-weight: bold;
+  border-radius: 0 0 4px 4px;
+  padding: 13px 0;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.post button:hover {
+  cursor: pointer;
 }

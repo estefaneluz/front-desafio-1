@@ -253,6 +253,11 @@ h2 {
   padding: 24px 0 15px 0;
 }
 
+.contato-conteudo .grid-column-two img {
+  width: 20px;
+  height: 20px;
+}
+
 h4 {
   font-size: 1em;
   text-transform: uppercase;
@@ -300,6 +305,12 @@ h4 {
   border-radius: 4px;
 }
 
+/* PÁGINA DA POSTAGEM */
+
+.conteudo.inteiro {
+  max-height: unset;
+}
+
 /* TELAS MAIORES */
 
 @media (min-width: 980px) {
@@ -316,6 +327,7 @@ h4 {
 
   .post {
     max-width: 50vw;
+    padding-bottom: 10px;
   }
 
   h2 {

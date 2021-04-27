@@ -213,7 +213,7 @@ h2 {
   overflow: hidden;
 }
 
-.post button {
+.btn {
   all: inherit;
   width: 100%;
   background-color: #fe0078;
@@ -225,7 +225,7 @@ h2 {
   margin-top: 10px;
 }
 
-.post button:hover {
+.btn:hover {
   cursor: pointer;
 }
 
@@ -266,7 +266,7 @@ h4 {
   justify-self: center;
 }
 
-.contato-form {
+.form {
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 10px;
@@ -298,7 +298,7 @@ h4 {
   color: black;
 }
 
-.post .btn-form {
+.form .btn.form {
   background-color: #fe0078;
   color: white;
   margin: 20px 0 0 0;
@@ -357,7 +357,7 @@ h4 {
     column-gap: 4vw;
   }
 
-  .post button {
+  .btn {
     width: 154px;
     padding: 12px 0;
     border-radius: 20px;
@@ -370,7 +370,7 @@ h4 {
     box-shadow: none;
   }
 
-  .post button:hover {
+  .btn:hover {
     color: white;
     background-color: #fe0078;
   }
@@ -448,7 +448,7 @@ h4 {
 
   /* CONTATO */
 
-  .contato-form {
+  .form {
     grid-template-columns: 1fr 1fr;
     column-gap: 24px;
   }
@@ -458,7 +458,7 @@ h4 {
     grid-column: span 2;
   }
 
-  .post .btn-form {
+  .form .btn.form {
     display: flex;
     flex-direction: column;
     align-items: center;

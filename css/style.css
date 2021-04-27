@@ -280,6 +280,7 @@ h4 {
   outline: #fe0078;
   border: 1px solid #eeeeee;
   border-radius: 2px;
+  padding: 10px;
 }
 
 .form-item textarea:focus,

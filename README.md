@@ -2,19 +2,22 @@
 
 # Desafio | Front-end - Módulo 1
 
-O objetivo deste exercício é replicar a página encontrada no arquivo 'Desafio front academy 1.fig'.
+Esse foi primeiro desafio que tive no curso da Cubos Academy, com o objetivo de replicar a página encontrada no arquivo '/assets/Desafio front academy 1.fig'.
 
-## Páginas obrigatórias
- - Início
+## Páginas feitas
 
-## Páginas opcionais
- - Post (Continuar Lendo)
- - Contato
+- Início
+- Post (Continuar Lendo)
+- Contato
 
-Você está livre para utilizar o método de layout de sua preferência (flex, grid, block, etc).
+## Implementações minhas
 
-**LEMBRE-SE**: é melhor feito do quê perfeito!!!
+- Responsivo
+- Favicon
 
+## Em andamento
 
+- Sobre
+- Menu mobile
 
 ###### tags: `front-end` `módulo 1` `HTML` `CSS` `desafio`

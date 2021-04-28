@@ -1,6 +1,6 @@
 const btnMenu = document.querySelector('.btn-menu')
 const menuList = document.querySelector('.menu-list')
-
+const nav = document.querySelector('nav')
 function openMenu() {
   menuList.classList.toggle('active')
 }

@@ -49,14 +49,17 @@ header {
 }
 
 header svg {
-  min-width: 150px;
+  width: 150px;
 }
 
 /* MENU */
 .btn-menu {
-  font-size: 1.3em;
-  padding: 10px;
+  font-size: 1.6em;
+  padding: 5px 10px;
   border: none;
+  background-color: #001a49;
+  color: white;
+  font-weight: bolder;
 }
 
 .menu-list {
@@ -65,8 +68,29 @@ header svg {
 
 .active {
   display: block;
-  position: absolute;
+  position: fixed;
   z-index: 2;
+  width: 40%;
+  background-color: white;
+  font-size: 1.2em;
+  top: 0;
+  right: 0;
+  border-left: 2px solid #fe0078;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+  height: 100%;
+  text-align: center;
+}
+
+.active a li {
+  color: black;
+  padding: 20px 0;
+}
+
+.btn-list {
+  margin-top: 20px;
+  border: none;
+  background: none;
+  font-size: 1.3em;
 }
 
 nav ul {
@@ -344,9 +368,16 @@ h4 {
     width: initial;
   }
 
+  /* header */
+
+  header svg {
+    width: auto;
+  }
+
   /* MENU */
 
-  .btn-menu {
+  .btn-menu,
+  .btn-list {
     display: none;
   }
 

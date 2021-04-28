@@ -52,6 +52,23 @@ header svg {
   min-width: 150px;
 }
 
+/* MENU */
+.btn-menu {
+  font-size: 1.3em;
+  padding: 10px;
+  border: none;
+}
+
+.menu-list {
+  display: none;
+}
+
+.active {
+  display: block;
+  position: absolute;
+  z-index: 2;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -325,6 +342,16 @@ h4 {
 
   .column {
     width: initial;
+  }
+
+  /* MENU */
+
+  .btn-menu {
+    display: none;
+  }
+
+  .menu-list {
+    display: flex;
   }
 
   /* POSTAGEM */

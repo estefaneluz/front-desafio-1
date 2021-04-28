@@ -14,10 +14,11 @@ Esse foi primeiro desafio que tive no curso da Cubos Academy, com o objetivo de 
 
 - Responsivo
 - Favicon
+- Menu mobile
+
 
 ## Em andamento
 
 - Sobre
-- Menu mobile
 
 ###### tags: `front-end` `módulo 1` `HTML` `CSS` `desafio`

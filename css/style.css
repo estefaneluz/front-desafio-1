@@ -53,6 +53,7 @@ header svg {
 }
 
 /* MENU */
+
 .btn-menu {
   font-size: 1.6em;
   padding: 5px 10px;
@@ -62,8 +63,23 @@ header svg {
   font-weight: bolder;
 }
 
+.btn-menu:hover {
+  cursor: pointer;
+}
+
 .menu-list {
   display: none;
+  animation: aparecer 600ms ease-out;
+  animation-direction: reverse;
+}
+
+@keyframes aparecer {
+  from {
+    transform: translateX(1);
+  }
+  to {
+    transform: translateX(300px);
+  }
 }
 
 .active {
@@ -83,11 +99,11 @@ header svg {
 
 .active a li {
   color: black;
-  padding: 20px 0;
+  padding: 25px 0;
 }
 
 .btn-list {
-  margin-top: 20px;
+  padding: 20px 0;
   border: none;
   background: none;
   font-size: 1.3em;

@@ -406,6 +406,7 @@ h4 {
 
   .menu-list {
     display: flex;
+    animation: none;
   }
 
   /* POSTAGEM */

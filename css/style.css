@@ -292,7 +292,7 @@ h2 {
 .column.contato-conteudo {
   row-gap: 0;
 }
-.contato-conteudo {
+.section {
   padding: 0 24px 13px 24px;
 }
 
@@ -307,7 +307,7 @@ h2 {
   padding: 8px 0 15px 0;
 }
 
-.contato-conteudo h2 {
+.section h2 {
   padding: 24px 0 15px 0;
 }
 
@@ -371,6 +371,20 @@ h4 {
 
 .conteudo.inteiro ul {
   padding-left: 5vw;
+}
+
+/* EM CONSTRUÇÃO */
+.em-construcao {
+  row-gap: 15px;
+}
+
+.em-construcao img {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.em-construcao p {
+  font-size: 1.2em;
 }
 
 /* TELAS MAIORES */

@@ -15,7 +15,7 @@ Esse foi primeiro desafio que tive no curso da Cubos Academy, com o objetivo de 
 - Responsivo
 - Favicon
 - Menu mobile
-
+- Animações
 
 ## Em andamento
 

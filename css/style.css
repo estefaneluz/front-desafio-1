@@ -475,7 +475,7 @@ h4 {
 
   .aside-one {
     background: none;
-    width: 100%;
+    width: initial;
     align-items: flex-start;
   }
 

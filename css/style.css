@@ -142,6 +142,8 @@ nav ul a:hover {
   row-gap: 25px;
 }
 
+/* SIDEBAR - PESQUISA */
+
 .search {
   all: inherit;
   background-color: white;
@@ -155,6 +157,8 @@ nav ul a:hover {
 .search:hover {
   border: 1px solid #fe0078;
 }
+
+/* SIDEBAR - CATEGORIAS */
 
 .categorias h3 {
   display: none;
@@ -210,6 +214,8 @@ h3::before {
   position: relative;
   top: 9px;
 }
+
+/* SIDEBAR - PUBLICIDADE */
 
 .column.ads {
   margin: 0px; /* resetando margens */
@@ -282,6 +288,7 @@ h2 {
 }
 
 /* FOOTER */
+
 footer {
   padding: 27px 17px;
   text-align: center;
@@ -295,6 +302,7 @@ footer {
 .column.contato-conteudo {
   row-gap: 0;
 }
+
 .section {
   padding: 0 24px 13px 24px;
 }
@@ -326,6 +334,8 @@ h4 {
   margin: 20px 0;
   justify-self: center;
 }
+
+/* FORMULÁRIO */
 
 .form {
   display: grid;
@@ -376,7 +386,8 @@ h4 {
   padding-left: 5vw;
 }
 
-/* EM CONSTRUÇÃO */
+/* PÁGINA EM CONSTRUÇÃO */
+
 .em-construcao {
   row-gap: 15px;
 }
@@ -393,6 +404,7 @@ h4 {
 /* TELAS MAIORES */
 
 @media (min-width: 980px) {
+  /* ESTILOS GERAIS */
   body,
   .conteudo {
     font-size: 14px;
@@ -408,7 +420,7 @@ h4 {
     transition: 600ms;
   }
 
-  /* header */
+  /* HEADER */
 
   header svg {
     width: auto;
@@ -553,7 +565,7 @@ h4 {
     place-content: center;
   }
 
-  /* CONTATO */
+  /* FORMULARIO */
 
   .form {
     grid-template-columns: 1fr 1fr;

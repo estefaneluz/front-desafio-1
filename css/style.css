@@ -6,13 +6,13 @@
 }
 
 body {
+  background-color: #f5f5f5;
   display: flex;
   flex-direction: column;
+  align-items: center;
   height: 100vh;
-  background-color: #f5f5f5;
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
-  align-items: center;
   color: #545454;
 }
 
@@ -36,23 +36,26 @@ aside {
   flex-grow: 1;
 }
 
+/* MOBILE FIRST - RESPONSIVO */
+
 /* HEADER */
+
 header {
-  padding: 20px 10vw;
   background-color: white;
-  width: 100%;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.12);
-  z-index: 1;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 10vw;
+  z-index: 1;
 }
 
 header svg {
   width: 150px;
 }
 
-/* MENU */
+/* MENU RESPONSIVO */
 
 .btn-menu {
   font-size: 1.6em;
@@ -123,15 +126,6 @@ nav ul a {
 
 nav ul a:hover {
   color: #fe0078;
-}
-
-/* FOOTER */
-footer {
-  padding: 27px 17px;
-  text-align: center;
-  background-color: #222222;
-  color: white;
-  width: 100%;
 }
 
 /* SIDEBAR */
@@ -285,6 +279,15 @@ h2 {
 
 .btn:hover {
   cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  padding: 27px 17px;
+  text-align: center;
+  background-color: #222222;
+  color: white;
+  width: 100%;
 }
 
 /* PAGINA CONTATO */
